@@ -1,26 +1,6 @@
 
 import Navbar from "./Navbar";
-import {
-  ArrowRight,
-  ArrowUpRight,
-  CheckCircle2,
-  Dumbbell,
-  ChevronDown,
-  Users,
-  Star,
-    Check,
-  TrendingUp,
-  CalendarCheck,
-  Play,
-   ClipboardCheck,
-  CreditCard,
-  BarChart3,
-   Mail,
-  Phone,
-  MapPin,
-  Send,
-  Camera,
-} from "lucide-react";
+import { ArrowRight, ArrowUpRight, CheckCircle2, Dumbbell, ChevronDown, Users, Star,   Check, TrendingUp, CalendarCheck, Play,  ClipboardCheck, CreditCard, BarChart3,  Mail, Phone, MapPin, Send, Camera,} from "lucide-react";
 
 const Home = () => {
   return (
@@ -28,11 +8,7 @@ const Home = () => {
       <Navbar />
 
       <main>
-        <section
-          id="home"
-          className="relative overflow-hidden bg-[#10110f] text-white"
-        >
-          {/* Background glow */}
+        <section  id="home"  className="relative overflow-hidden bg-[#10110f] text-white">
           <div className="pointer-events-none absolute -left-40 top-20 h-80 w-80 rounded-full bg-lime-400/10 blur-[120px]" />
           <div className="pointer-events-none absolute right-0 top-20 h-96 w-96 rounded-full bg-lime-400/5 blur-[120px]" />
 
@@ -48,10 +24,7 @@ const Home = () => {
               </div>
 
               <h1 className="max-w-2xl text-4xl font-black leading-[1.12] tracking-tight sm:text-5xl md:text-6xl xl:text-7xl">
-                Build a Stronger
-                <br />
-                Gym. Manage It
-                <br />
+                Build a Stronger<br />Gym. Manage It<br />
                 <span className="text-lime-400">Smarter.</span>
               </h1>
 
@@ -63,16 +36,8 @@ const Home = () => {
 
               {/* CTA buttons */}
               <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-                <a
-                  href="#membership"
-                  className="group inline-flex items-center justify-center gap-3 rounded-full bg-lime-400 px-7 py-4 font-bold text-black transition duration-300 hover:bg-lime-300"
-                >
-                  Explore Membership
-                  <ArrowRight
-                    size={19}
-                    className="transition-transform group-hover:translate-x-1"
-                  />
-                </a>
+                <a href="#membership" className="group inline-flex items-center justify-center gap-3 rounded-full bg-lime-400 px-7 py-4 font-bold text-black transition duration-300 hover:bg-lime-300"> Explore Membership
+                  <ArrowRight  size={19} className="transition-transform group-hover:translate-x-1"/></a>
 
                 <a
                   href="#features"
