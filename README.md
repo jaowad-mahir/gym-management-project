@@ -83,7 +83,7 @@ git clone https://github.com/YOUR_USERNAME/gym-management.git
 **2. Navigate to the project directory**
 
 ```bash
-cd gym-management
+cd gym-management-project
 ```
 
 **3. Install dependencies**
